@@ -1,4 +1,5 @@
 int mx_sqrt(int x) {
+    if (x <= 0) return 0;
     int sqrt = -1;
     int temp = x / 2;
     while (1 == 1) {
